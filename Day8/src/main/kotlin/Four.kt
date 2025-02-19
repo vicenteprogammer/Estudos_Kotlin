@@ -1,4 +1,4 @@
 fun main(){
-    val list = listOf("Alice", "Lorena", "Vicente", "Andre" )
-    println(list.filter { it == "A" })
+    val list = listOf("Anderson", "Lorena", "Vicente", "Andre" )
+    println(list.filter { it.startsWith("A", ignoreCase = true) })
 }
